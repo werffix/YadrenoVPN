@@ -452,7 +452,7 @@ def migration_7(conn: sqlite3.Connection) -> None:
     conn.execute("CREATE INDEX IF NOT EXISTS idx_vpn_key_nodes_key_id ON vpn_key_nodes(vpn_key_id)")
 
     subscription_settings = [
-        ('subscription_base_url', 'https://q1sub.servernux.com'),
+        ('subscription_base_url', 'https://q1.cdcult.ru'),
         ('subscription_bind_host', '127.0.0.1'),
         ('subscription_bind_port', '18080'),
     ]
