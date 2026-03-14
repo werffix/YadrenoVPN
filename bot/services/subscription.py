@@ -22,7 +22,7 @@ from database.requests import (
 )
 
 logger = logging.getLogger(__name__)
-DEFAULT_SUBSCRIPTION_BASE_URL = "https://q1sub.servernux.com"
+DEFAULT_SUBSCRIPTION_BASE_URL = "https://q1.cdcult.ru"
 
 
 def _build_shared_email(telegram_id: int, key_id: int) -> str:
